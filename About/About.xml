@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>GetTogethers</name>
+	<author>FuriouslyEloquent</author>
+	<targetVersion>0.18.0</targetVersion>
+	<description>V0.1
+    Additional event types based on relationships!
+	</description>
+</ModMetaData>

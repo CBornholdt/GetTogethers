@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<GT_IncomingMessage.Title>Incoming Message</GT_IncomingMessage.Title>
+	<GT_IncomingMessage.Text>An incoming message is waiting on the comms console</GT_IncomingMessage.Text>
+	<GT_IncomingMessage.CommLabel>Answer incoming message</GT_IncomingMessage.CommLabel>
+	<GT_RequestFromGuest.Title>Message from neighbor</GT_RequestFromGuest.Title>
+	<GT_RequestFromGuest.Caravan.Title>Message from nearby caravan</GT_RequestFromGuest.Caravan.Title>
+
+	<GT_RequestFromGuest.Text>{0}! Its your SOMETHING {1}. Its been so long and, yesterday I began to think. It would be great if we could get together. Unfortunately I wouldn't be able to host, would you?</GT_RequestFromGuest.Text>
+	<GT_RequestFromGuest.NotHost0.Text>Hello there. Its {1}, SOMETHING of {0}. Could you please bring him/her so that we could talk? Its not urgent, but I'd really love to speak to him/her?</GT_RequestFromGuest.NotHost0.Text>
+	<GT_RequestFromGuest.NotHost1.Text>Yes, sorry I wasn't clear. If you could please bring {0} to your comms</GT_RequestFromGuest.NotHost1.Text>
+	<GT_RequestFromGuest.NotHost2.Text>I don't want to speak to you {2}, but my SOMETHING {0}</GT_RequestFromGuest.NotHost2.Text>
+	<GT_RequestFromGuest.NotHost3.Text>Nevermind. I must not be that important. Sorry for trying.</GT_RequestFromGuest.NotHost3.Text>	
+
+	<GT_RequestFromGuest.Accept>Gladly! Its been so long since we've seen each other</GT_RequestFromGuest.Accept>
+	<GT_RequestFromGuest.NotHost0.Accept>Just a moment, I'll fetch him/her</GT_RequestFromGuest.NotHost0.Accept>
+	<GT_RequestFromGuest.NotHost1.Accept>Hold on a moment</GT_RequestFromGuest.NotHost1.Accept>
+	<GT_RequestFromGuest.NotHost2.Accept>And I don't want to speak to you either</GT_RequestFromGuest.NotHost2.Accept>
+	<GT_RequestFromGuest.NotHost3.Accept>You're just not that important I guess</GT_RequestFromGuest.NotHost3.Accept>	
+
+	<GT_RequestFromGuest.Decline>Its been so long since we've seen each other, after thinging about it myself, I remember why ...</GT_RequestFromGuest.Decline>
+	<GT_RequestFromGuest.NotHost0.Decline>Why? They have better things to do</GT_RequestFromGuest.NotHost0.Decline>
+	<GT_RequestFromGuest.NotHost1.Decline>You mind waiting? How long until you go away?</GT_RequestFromGuest.NotHost1.Decline>
+	<GT_RequestFromGuest.NotHost2.Decline>Not gonna happen</GT_RequestFromGuest.NotHost2.Decline>
+	<GT_RequestFromGuest.NotHost3.Decline>Buzz off</GT_RequestFromGuest.NotHost3.Decline>
+
+	<GT_RequestFromGuest.Caravan.Text>{0}! Its your SOMETHING {1}. Pardon the signal, our caravan's transmitter isn't the best. Its been so long and, yesterday while on the road I began to think. It would be great if we could get together. Wouldn't it be great if I swung on by?</GT_RequestFromGuest.Caravan.Text>
+	<GT_RequestFromGuest.Caravan.NotHost0.Text>Hello there. Its {1}, SOMETHING of {0}. Could you please bring him/her so that we could talk? Its not urgent, but I'd really love to speak to him/her?</GT_RequestFromGuest.Caravan.NotHost0.Text>
+	<GT_RequestFromGuest.Caravan.NotHost1.Text>Yes, sorry I wasn't clear. If you could please bring {0} to your comms</GT_RequestFromGuest.Caravan.NotHost1.Text>
+	<GT_RequestFromGuest.Caravan.NotHost2.Text>I don't want to speak to you {2}, but my SOMETHING {0}</GT_RequestFromGuest.Caravan.NotHost2.Text>
+	<GT_RequestFromGuest.Caravan.NotHost3.Text>Nevermind. I must not be that important</GT_RequestFromGuest.Caravan.NotHost3.Text>	
+
+	<GT_RequestFromGuest.Caravan.Accept>Gladly! Its been so long since we've seen each other</GT_RequestFromGuest.Caravan.Accept>
+	<GT_RequestFromGuest.NotHost0.Caravan.Accept>Just a moment, I'll fetch him/her</GT_RequestFromGuest.NotHost0.Caravan.Accept>
+	<GT_RequestFromGuest.NotHost1.Caravan.Accept>Hold on a moment</GT_RequestFromGuest.NotHost1.Caravan.Accept>
+	<GT_RequestFromGuest.NotHost2.Caravan.Accept>And I don't want to speak to you either</GT_RequestFromGuest.NotHost2.Caravan.Accept>
+	<GT_RequestFromGuest.NotHost3.Caravan.Accept>You're just not that important I guess</GT_RequestFromGuest.NotHost3.Caravan.Accept>
+
+	<GT_RequestFromGuest.Caravan.Decline>Gladly! Its been so long since we've seen each other</GT_RequestFromGuest.Caravan.Decline>
+	<GT_RequestFromGuest.NotHost0.Caravan.Decline>Just a moment, I'll fetch him/her</GT_RequestFromGuest.NotHost0.Caravan.Decline>
+	<GT_RequestFromGuest.NotHost1.Caravan.Decline>Hold on a moment</GT_RequestFromGuest.NotHost1.Caravan.Decline>
+	<GT_RequestFromGuest.NotHost2.Caravan.Decline>And I don't want to speak to you either</GT_RequestFromGuest.NotHost2.Caravan.Decline>
+	<GT_RequestFromGuest.NotHost3.Caravan.Decline>You're just not that important I guess</GT_RequestFromGuest.NotHost3.Caravan.Decline>
+
+	<GT_RequestFromGuest></GT_RequestFromGuest>
+	
+</LanguageData>

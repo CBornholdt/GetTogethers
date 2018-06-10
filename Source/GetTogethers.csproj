@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2DA38E3B-3ABB-4D69-804A-28FEC8AE74F6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>GetTogethers</RootNamespace>
+    <AssemblyName>GetTogethers</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Assemblies</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <LangVersion>7.2</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>..\Assemblies</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <LangVersion>7.2</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\.steam\steam\steamapps\common\RimWorld\RimWorldLinux_Data\Managed\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\.steam\steam\steamapps\common\RimWorld\RimWorldLinux_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\..\..\..\..\usr\local\lib\dotnet\0Harmony.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="IncidentWorker_GetTogether_Here.cs" />
+    <Compile Include="Tuple.cs" />
+    <Compile Include="Communications\Communication.cs" />
+    <Compile Include="Communications\DynamicCommManager.cs" />
+    <Compile Include="Communications\DynamicCommManager_Patches.cs" />
+    <Compile Include="Communications\FactionCommunication.cs" />
+    <Compile Include="Communications\NotificationLetter.cs" />
+    <Compile Include="Communications\DCMTools.cs" />
+    <Compile Include="Communications\Comm_LetsGetTogether_Contact.cs" />
+    <Compile Include="Communications\DialogMaker.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="HarmonyPatches.cs" />
+    <Compile Include="ForEach.cs" />
+    <Compile Include="GetTogethersUtility.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Communications\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

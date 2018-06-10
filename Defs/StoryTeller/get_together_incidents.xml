@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<IncidentDef>
+		<defName>GT_OutsideRelationVisit_Here</defName>
+		<label>having a get together</label>
+		<category>Misc</category>
+    <targetTypes>
+      <li>MapPlayerHome</li>
+    </targetTypes>
+		<workerClass>GetTogethers.IncidentWorker_GetTogether_Here</workerClass>
+		<baseChance>2.6</baseChance>
+	</IncidentDef>
+</Defs>
